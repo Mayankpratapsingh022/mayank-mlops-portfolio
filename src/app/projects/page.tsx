@@ -50,11 +50,13 @@ const projects = [
         {
           type: "GitHub",
           href: "https://github.com/Mayankpratapsingh022/Network_Security",
+          icon: "",
           
         },
         {
           type: "Video",
           href: "https://www.youtube.com/watch?v=stdsfTTr4xk",
+          icon: "",
  
         }
       ],
@@ -86,6 +88,7 @@ const projects = [
         {
           type: "GitHub",
           href: "https://github.com/Mayankpratapsingh022/US-VISA-APPROVAL-PREDICTION-MLOPS",
+          icon: "",
         },
         // {
         //   type: "Deployment Guide",
@@ -113,42 +116,36 @@ const projects = [
         {
           type: "GitHub",
           href: "https://github.com/Mayankpratapsingh022/Customer-Satisfaction-MLOps/tree/main",
+          icon: "",
         },
       ],
       image: "/customer_pipeline.jpg",
       
     },
+    {
+      title: "Neural Network From Scratch",
+      href: "https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch",
+      dates: "",
+      active: true,
+      description:
+        "Implemented a neural network from scratch using Python and Numpy. This project explores neural networks at a fundamental level, focusing on core concepts like backpropagation, gradient descent, and activation functions without relying on frameworks like TensorFlow or PyTorch.",
+      technologies: [
+        "Python",
+        "Numpy",
+        "Backpropagation",
+        "Gradient Descent",
+        "Activation Functions"
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch",
+          icon: "",
+        }
+      ],
+      image: "/neural_net.jpg",
+    }
        
-
-  {
-    title: "Network Security - Malicious URL Detection using MLOps",
-    href: "https://github.com/Mayankpratapsingh022/Network_Security",
-    description:
-      "Developed an end-to-end MLOps project to detect malicious URLs using XGBoost. Integrated robust pipelines for data ingestion, model training, deployment, and monitoring.",
-    technologies: [
-      "Streamlit",
-      "FastAPI",
-      "XGBoost",
-      "MongoDB",
-      "Apache Airflow",
-      "MLflow",
-      "GitHub Actions",
-      "Docker",
-      "AWS S3",
-      "AWS EC2 Instance",
-    ],
-    links: [
-      {
-        type: "GitHub",
-        href: "https://github.com/Mayankpratapsingh022/Network_Security",
-      },
-      {
-        type: "Explanation",
-        href: "https://www.youtube.com/watch?v=stdsfTTr4xk",
-      },
-    ],
-    image: "/network_security_mlops.png",
-  },
 
 ];
 
@@ -192,6 +189,7 @@ export default function ProjectsPage() {
               <ProjectCard
                 href={project.href}
                 title={project.title}
+                dates={project.dates} 
                 key={project.title}
                 description={project.description}
                 tags={project.technologies}
