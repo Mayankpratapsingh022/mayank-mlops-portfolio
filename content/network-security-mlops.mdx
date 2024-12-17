@@ -1,0 +1,71 @@
+---
+title: "Network Security - Malicious URL Detection using MLOps"
+publishedAt: "2024-06-18"
+summary: "A production-ready MLOps pipeline to detect malicious URLs using XGBoost, FastAPI, Airflow, and AWS."
+---
+
+# Network Security - Malicious URL Detection using MLOps 🚀
+
+
+
+This project delivers an end-to-end **MLOps pipeline** for detecting malicious URLs using **machine learning**. By integrating tools like **XGBoost**, **FastAPI**, **Airflow**, and **AWS**, it provides **real-time predictions** and **batch processing**, ensuring user safety with a robust and scalable solution.
+
+---
+
+## 🌟 **Highlights**
+
+- **Single and Batch Predictions**: 
+   - **Streamlit UI** for single URL predictions.
+   - **FastAPI** backend for batch predictions via CSV uploads.
+- **MLOps Pipeline**: Includes data ingestion, validation, transformation, model training, and deployment.
+- **CI/CD with GitHub Actions**: Automates testing, containerization, and deployment to **AWS EC2**.
+- **Orchestration with Airflow**: DAGs for automated training and batch prediction pipelines.
+- **Monitoring and Logging**: **MLflow** for tracking metrics and **AWS S3** for artifact storage.
+
+---
+
+## 🛠️ **Tech Stack**
+
+| Category            | Tools/Technologies                        |
+|----------------------|-------------------------------------------|
+| **Frontend**         | Streamlit                                |
+| **Backend**          | FastAPI                                  |
+| **ML Modeling**      | XGBoost                                  |
+| **Database**         | MongoDB                                  |
+| **Orchestration**    | Apache Airflow                           |
+| **CI/CD**            | GitHub Actions                           |
+| **Containerization** | Docker, AWS ECR                          |
+| **Cloud Services**   | AWS S3, AWS EC2                          |
+| **Experiment Tracking** | MLflow                               |
+
+---
+
+## 🏗️ **Architecture**
+
+![Architecture](https://github.com/user-attachments/assets/2f1b37a7-d64e-40f4-9750-42ec43dcc972)
+
+The pipeline follows a modular design:
+1. **Data Ingestion**: Data fetched from MongoDB and validated.
+2. **Model Training**: XGBoost classifier trained and tracked using MLflow.
+3. **Deployment**: Dockerized and deployed to AWS EC2 with artifacts stored in S3.
+4. **Monitoring**: Automated retraining pipelines via Airflow.
+
+---
+
+## 🧪 **Key Features**
+
+1. **Real-Time Predictions**: Use the Streamlit UI for instant URL assessments.
+2. **Batch Predictions**: Upload CSV files via FastAPI to predict multiple URLs.
+3. **Model Retraining**: Automated Airflow pipelines ensure the model stays updated.
+4. **CI/CD Automation**: GitHub Actions builds, tests, and deploys the application.
+5. **AWS Integration**: S3 for storage, ECR for Docker images, and EC2 for hosting.
+
+---
+
+## ⚙️ **How to Run**
+
+### **1. Clone and Install Dependencies**
+```bash
+git clone https://github.com/yourusername/network-security-mlops.git
+cd network-security-mlops
+pip install -r requirements.txt
