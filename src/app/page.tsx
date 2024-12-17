@@ -27,7 +27,7 @@ export default function Page() {
            <p className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">   
                 
                
-              Hi, I'm {DATA.name.split(" ")[0]}</p>
+              Hi, I&apos; m {DATA.name.split(" ")[0]}</p>
           
                 <p className="text-pretty text-base  md:text-xl mt-4 dark:prose-invert">
                   I specialize in optimizing models and deploying <br/> AI-driven  solutions for <b>real-world </b>impact.

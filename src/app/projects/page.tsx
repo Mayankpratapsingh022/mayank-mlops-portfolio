@@ -192,6 +192,7 @@ export default function ProjectsPage() {
               <ProjectCard
                 href={project.href}
                 title={project.title}
+                key={project.title}
                 description={project.description}
                 tags={project.technologies}
                 image={project.image}
