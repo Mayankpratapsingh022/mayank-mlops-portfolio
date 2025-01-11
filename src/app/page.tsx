@@ -134,7 +134,7 @@ export default function Page() {
         
       </section>
    
-      <section id="work">
+      {/* <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
   
             <h2 className="text-xl font-bold">Work Experience</h2>
@@ -155,7 +155,7 @@ export default function Page() {
  
           ))}
         </div>
-      </section>
+      </section> */}
       {/* <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           

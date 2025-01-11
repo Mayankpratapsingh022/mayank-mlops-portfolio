@@ -12,10 +12,10 @@ const socialLinks = [
       title: "LinkedIn",
       href: "https://www.linkedin.com/in/mayankpratapsingh022/",
     },
-    {
-      title: "Instagram",
-      href: "https://www.instagram.com/mayankpratapsingh_022/",
-    },
+    // {
+    //   title: "Instagram",
+    //   href: "https://www.instagram.com/mayankpratapsingh_022/",
+    // },
 
   ];
   
