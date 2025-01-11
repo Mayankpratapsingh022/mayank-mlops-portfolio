@@ -1,7 +1,7 @@
-import { HackathonCard } from "@/components/hackathon-card";
+// import { HackathonCard } from "@/components/hackathon-card";
 import { ProjectCard } from "@/components/project-card";
-import { ResumeCard } from "@/components/resume-card";
-import { Badge } from "@/components/ui/badge";
+// import { ResumeCard } from "@/components/resume-card";
+// import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
