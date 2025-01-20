@@ -195,31 +195,27 @@ export const DATA = {
        
 
 {
-  title: "Interactive ML Algorithm Visualizer",
-  href: "https://www.mlexplain.com/linear-regression",
+  title: "Neural Network From Scratch",
+  href: "https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch",
   dates: "",
   active: true,
   description:
-    "An interactive web application designed to help users understand and experiment with machine learning algorithms visually. It offers dynamic visualizations for concepts like linear regression, allowing users to adjust parameters such as slope and intercept interactively. The platform aims to simplify ML concepts for learners through intuitive design and engaging tools.",
+    "Implemented a neural network from scratch using Python and Numpy. This project explores neural networks at a fundamental level, focusing on core concepts like backpropagation, gradient descent, and activation functions without relying on frameworks like TensorFlow or PyTorch.",
   technologies: [
-    "TypeScript",
-    "D3.js",
-    "SVG",
-    "Next.js"
+    "Python",
+    "Numpy",
+    "Backpropagation",
+    "Gradient Descent",
+    "Activation Functions"
   ],
   links: [
     {
-      "type": "GitHub",
-      "href": "https://github.com/Mayankpratapsingh022/MLDataViz",
-      "icon": "<Icons.github className='size-3' />"
-    },
-    {
-      "type": "Website",
-      "href": "https://www.mlexplain.com/linear-regression",
-      "icon": "<Icons.external className='size-3' />"
+      type: "GitHub",
+      href: "https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch",
+      icon: <Icons.github className="size-3" />,
     }
   ],
-  image: "/mlexplain.png",
+  image: "/neural_net.jpg",
 }
 
     
