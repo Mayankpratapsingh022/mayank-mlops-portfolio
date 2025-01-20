@@ -122,6 +122,35 @@ const projects = [
       image: "/customer_pipeline.jpg",
       
     },
+  
+    {
+      title: "Interactive ML Algorithm Visualizer",
+      href: "https://www.mlexplain.com/linear-regression",
+      dates: "",
+      active: true,
+      description:
+        "An interactive web application designed to help users understand and experiment with machine learning algorithms visually. It offers dynamic visualizations for concepts like linear regression, allowing users to adjust parameters such as slope and intercept interactively. The platform aims to simplify ML concepts for learners through intuitive design and engaging tools.",
+      technologies: [
+        "TypeScript",
+        "D3.js",
+        "SVG",
+        "Next.js"
+      ],
+      links: [
+        {
+          title: "Neural Network From Scratch",
+          "type": "GitHub",
+          "href": "https://github.com/Mayankpratapsingh022/MLDataViz",
+          "icon": "<Icons.github className='size-3' />"
+        },
+        {
+          "type": "Website",
+          "href": "https://www.mlexplain.com/linear-regression",
+          "icon": "<Icons.external className='size-3' />"
+        }
+      ],
+      image: "/mlexplain.png",
+    }, 
     {
       title: "Neural Network From Scratch",
       href: "https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch",
@@ -144,8 +173,7 @@ const projects = [
         }
       ],
       image: "/neural_net.jpg",
-    }
-       
+    },
 
 ];
 

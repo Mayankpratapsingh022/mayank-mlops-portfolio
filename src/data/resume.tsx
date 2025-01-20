@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "",
   summary:
-    "I am a passionate  Machine Learning Engineer and Data Scientist  My focus lies in designing scalable machine learning models, automating workflows with MLOps, and optimizing systems for production deployment. Currently, I am focused on leveraging generative ai and llms to solve complex challenges while ensuring models are scalable, efficient, and production-ready.",
+    "I am a Machine Learning Engineer and Data Scientist  My focus lies in designing scalable machine learning models, automating workflows with MLOps, and optimizing systems for production deployment. Currently, I am focused on leveraging generative ai and llms to solve complex challenges while ensuring models are scalable, efficient, and production-ready.",
   avatarUrl: "/profile.jpg",
   skills: [
     "C", "C++", "Python", "JavaScript", "TypeScript",
@@ -94,44 +94,7 @@ export const DATA = {
  
   ],
   projects: [
-    {
-      title: "Network Security - Malicious URL Detection using MLOps",
-      href: "projectblog/network-security-mlops",
-      dates: "",
-      active: true,
-      description:
-        "Developed an end-to-end MLOps project to detect malicious URLs using XGBoost. Integrated robust pipelines for data ingestion, model training, deployment, and monitoring.",
-      technologies: [
-        "Streamlit",
-        "FastAPI",
-        "XGBoost",
-        "MongoDB",
-        "Apache Airflow",
-        "MLflow",
-        "GitHub Actions",
-        "Docker",
-        "AWS S3",
-        "AWS EC2 Instance"
-      ],
-      links: [
-        // {
-        //   type: "Blog",
-        //   href: "https://github.com/Mayankpratapsingh022/Network_Security",
-        //   icon: <Icons.github className="size-3" />,
-        // },
-        {
-          type: "GitHub",
-          href: "https://github.com/Mayankpratapsingh022/Network_Security",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Video",
-          href: "https://www.youtube.com/watch?v=stdsfTTr4xk",
-          icon: <Icons.youtube className="size-3" />,
-        }
-      ],
-      image: "/network_security_mlops.png",
-    },
+  
     {
       title: "US Visa Approval Prediction using MLOps",
       href: "https://github.com/Mayankpratapsingh022/US-VISA-APPROVAL-PREDICTION-MLOPS",
@@ -168,58 +131,104 @@ export const DATA = {
       ],
       image: "/us_visa_prediction_mlops.png",
     },
-    {
-      title: "Customer Satisfaction Prediction using ZenML",
-      href: "https://github.com/Mayankpratapsingh022/Customer-Satisfaction-MLOps/tree/main",
-      dates: "",
-      active: true,
-      description:
-        "Predicted customer satisfaction scores for future orders using historical e-commerce data from the Brazilian E-Commerce Public Dataset by Olist. This project leverages multiple machine learning models like CatBoost, XGBoost, and LightGBM, built within a ZenML pipeline to create a production-ready solution.",
-      technologies: [
-        "XGboost",
-        "Optuna",
-        "ZenML",
-        "Streamlit",
-        "MLFlow"
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/Mayankpratapsingh022/Customer-Satisfaction-MLOps/tree/main",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/customer_pipeline.jpg",
-      
-    },
+  
        
-
 {
-  title: "Neural Network From Scratch",
-  href: "https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch",
+  title: "Interactive ML Algorithm Visualizer",
+  href: "https://www.mlexplain.com/linear-regression",
   dates: "",
   active: true,
   description:
-    "Implemented a neural network from scratch using Python and Numpy. This project explores neural networks at a fundamental level, focusing on core concepts like backpropagation, gradient descent, and activation functions without relying on frameworks like TensorFlow or PyTorch.",
+    "An interactive web application designed to help users understand and experiment with machine learning algorithms visually. It offers dynamic visualizations for concepts like linear regression, allowing users to adjust parameters such as slope and intercept interactively. The platform aims to simplify ML concepts for learners through intuitive design and engaging tools.",
   technologies: [
-    "Python",
-    "Numpy",
-    "Backpropagation",
-    "Gradient Descent",
-    "Activation Functions"
+    "TypeScript",
+    "D3.js",
+    "SVG",
+    "Next.js"
+  ],
+  links: [
+    {
+      title: "Neural Network From Scratch",
+      "type": "GitHub",
+      "href": "https://github.com/Mayankpratapsingh022/MLDataViz",
+      "icon": "<Icons.github className='size-3' />"
+    },
+    {
+      "type": "Website",
+      "href": "https://www.mlexplain.com/linear-regression",
+      "icon": "<Icons.external className='size-3' />"
+    },
+    {
+      "type": "Video",
+      "href": "https://www.youtube.com/watch?v=7luEGaHig9w&t=11s",
+      "icon": "<Icons.external className='size-3' />"
+    }
+  ],
+  image: "/mlexplain.png",
+}, 
+{
+  title: "Network Security - Malicious URL Detection using MLOps",
+  href: "projectblog/network-security-mlops",
+  dates: "",
+  active: true,
+  description:
+    "Developed an end-to-end MLOps project to detect malicious URLs using XGBoost. Integrated robust pipelines for data ingestion, model training, deployment, and monitoring.",
+  technologies: [
+    "Streamlit",
+    "FastAPI",
+    "XGBoost",
+    "MongoDB",
+    "Apache Airflow",
+    "MLflow",
+    "GitHub Actions",
+    "Docker",
+    "AWS S3",
+    "AWS EC2 Instance"
+  ],
+  links: [
+    // {
+    //   type: "Blog",
+    //   href: "https://github.com/Mayankpratapsingh022/Network_Security",
+    //   icon: <Icons.github className="size-3" />,
+    // },
+    {
+      type: "GitHub",
+      href: "https://github.com/Mayankpratapsingh022/Network_Security",
+      icon: <Icons.github className="size-3" />,
+    },
+    {
+      type: "Video",
+      href: "https://www.youtube.com/watch?v=stdsfTTr4xk",
+      icon: <Icons.youtube className="size-3" />,
+    }
+  ],
+  image: "/network_security_mlops.png",
+},
+    
+{
+  title: "Customer Satisfaction Prediction using ZenML",
+  href: "https://github.com/Mayankpratapsingh022/Customer-Satisfaction-MLOps/tree/main",
+  dates: "",
+  active: true,
+  description:
+    "Predicted customer satisfaction scores for future orders using historical e-commerce data from the Brazilian E-Commerce Public Dataset by Olist. This project leverages multiple machine learning models like CatBoost, XGBoost, and LightGBM, built within a ZenML pipeline to create a production-ready solution.",
+  technologies: [
+    "XGboost",
+    "Optuna",
+    "ZenML",
+    "Streamlit",
+    "MLFlow"
   ],
   links: [
     {
       type: "GitHub",
-      href: "https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch",
+      href: "https://github.com/Mayankpratapsingh022/Customer-Satisfaction-MLOps/tree/main",
       icon: <Icons.github className="size-3" />,
-    }
+    },
   ],
-  image: "/neural_net.jpg",
-}
-
-    
+  image: "/customer_pipeline.jpg",
   
+}, 
   ],
   // hackathons: [
   //   {
