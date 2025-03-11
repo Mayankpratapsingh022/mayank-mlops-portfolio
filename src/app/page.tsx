@@ -10,6 +10,7 @@ import Image from 'next/image';
 import Socials from "@/components/ui/dock_socials";
 import Skills from "@/components/skills";
 import Email from "@/components/email";
+import BlogList from "@/components/bloglist";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -64,6 +65,9 @@ export default function Page() {
             {DATA.summary}
           </Markdown>
      
+
+
+
       </section>
       <section id="projects">
         <div className="space-y-12 w-full py-12">
@@ -133,7 +137,7 @@ export default function Page() {
         </div>
         
       </section>
-   
+      <BlogList/>
       {/* <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
   
