@@ -235,7 +235,7 @@ const projects = [
           icon: "",
         }
       ],
-      image: "/GANA.gif" // Or the GitHub-hosted image if preferred
+      image: "/GANS.gif" // Or the GitHub-hosted image if preferred
     }
     
 
