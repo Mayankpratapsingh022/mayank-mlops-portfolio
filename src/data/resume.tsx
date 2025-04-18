@@ -94,6 +94,68 @@ export const DATA = {
  
   ],
   projects: [
+    
+    {
+      title: "Fine-Tuning Large Language Models (LLMs)",
+      href: "https://github.com/Mayankpratapsingh022/Finetuning-LLMs",
+      dates: "",
+      active: true,
+      description:
+        "Fine-tuned various open-source LLMs including LLaMA 2, Mistral, Qwen, and vision-language models for domain-specific tasks. Leveraged efficient methods like LoRA, QLoRA, and quantization using Unsloth and Hugging Face.",
+      technologies: [
+        "LoRA",
+        "QLoRA",
+        "Unsloth",
+        "LLaMA 2",
+        "Mistral",
+        "Python",
+        "JSONL",
+        "Quantization",
+        "Hugging Face"
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/Mayankpratapsingh022/Finetuning-LLMs",
+          icon: "",
+        },
+        {
+          type: "Huggingface",
+          href: "https://huggingface.co/Mayank022",
+          icon: "",
+        }
+      ],
+      image: "/finetun.gif", // or "/a3de55cf-03c6-474b-957f-d3feb38a05e6.png" if you're referencing the uploaded image directly
+    }
+,   
+
+{
+  title: "Large Language Model (LLM) from Scratch",
+  href: "https://github.com/Mayankpratapsingh022/LLM_from_Scratch/tree/master/GPT2-124M_from_Scratch",
+  dates: "",
+  active: true,
+  description:
+    "Implemented a Large Language Model (LLM) from scratch, covering every stage from data preparation and model architecture to pretraining and fine-tuning. This project demystifies transformer-based models through hands-on code and experiments, enabling a deeper understanding of attention mechanisms and token prediction.",
+  technologies: [
+    "Python",
+    "NumPy",
+    "PyTorch",
+    "Transformer Architecture",
+    "Attention Mechanism",
+    "Word Embeddings",
+    "Instruction Tuning",
+    "Fine-tuning",
+    "LLM Pretraining"
+  ],
+  links: [
+    {
+      type: "GitHub",
+      href: "https://github.com/Mayankpratapsingh022/LLM_from_Scratch",
+      icon: "",
+    }
+  ],
+  image: "/llm_from_scratch.gif" 
+},
   
     {
       title: "US Visa Approval Prediction using MLOps",

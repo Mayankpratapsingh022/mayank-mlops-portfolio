@@ -16,6 +16,10 @@ const socialLinks = [
        title: "Blog",
        href: "https://blogs.mayankpratapsingh.in/",
      },
+     {
+      title: "HF",
+      href: "https://huggingface.co/Mayank022",
+    },
 
   ];
   
