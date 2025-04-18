@@ -215,28 +215,29 @@ const projects = [
       image: "/mlexplain.png",
     }, 
     {
-      title: "Neural Network From Scratch",
-      href: "https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch",
+      title: "Deep Learning from Scratch",
+      href: "https://github.com/Mayankpratapsingh022/Deep-Learning-from-Scratch",
       dates: "",
       active: true,
       description:
-        "Implemented a neural network from scratch using Python and Numpy. This project explores neural networks at a fundamental level, focusing on core concepts like backpropagation, gradient descent, and activation functions without relying on frameworks like TensorFlow or PyTorch.",
+        "Implemented fundamental deep learning architectures from scratch using Python, NumPy, PyTorch, and TensorFlow. Covers core neural network types including ANN, RNN, CNN, and GAN. Intention to build an intuitive understanding of how deep learning models function internally without relying on high-level abstractions.",
       technologies: [
-        "Python",
-        "Numpy",
-        "Backpropagation",
-        "Gradient Descent",
-        "Activation Functions"
+        "ANN",
+        "RNN",
+        "CNN",
+        "GAN",
+   
       ],
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch",
+          href: "https://github.com/Mayankpratapsingh022/Deep-Learning-from-Scratch",
           icon: "",
         }
       ],
-      image: "/neural_net.jpg",
-    },
+      image: "/GANA.gif" // Or the GitHub-hosted image if preferred
+    }
+    
 
 ];
 

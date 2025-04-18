@@ -50,7 +50,7 @@ export default function BlogList() {
                   </span>
                   <a
                     href={`https://blogs.mayankpratapsingh.in/${blog.slug}`}
-                    className="text-lg font-medium underline text-neutral-700 dark:text-neutral-300 hover:text-black dark:hover:text-white"
+                    className="text-lg font-light underline text-neutral-700 dark:text-neutral-300 hover:text-black dark:hover:text-white"
                   >
                     {blog.title}
                   </a>
