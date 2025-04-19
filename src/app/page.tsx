@@ -11,15 +11,15 @@ import Socials from "@/components/ui/dock_socials";
 import Skills from "@/components/skills";
 import Email from "@/components/email";
 import BlogList from "@/components/bloglist";
+import YouTubeVideoGallery from "@/components/vid";
+
+
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
-
-
-
 
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
@@ -138,6 +138,7 @@ export default function Page() {
         
       </section>
       <BlogList/>
+      <YouTubeVideoGallery/>
       {/* <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
   
