@@ -43,6 +43,29 @@ export default function BlogList() {
         ) : (
           <>
             <ul className="space-y-4">
+
+
+
+
+
+                {/*  Manually added blog entry */}
+  <li className="flex items-center gap-4">
+    <span className="text-sm text-gray-500 min-w-[120px]">
+      {new Date("2025-04-30").toLocaleDateString()}
+    </span>
+    <a
+      href="https://open.substack.com/pub/vizuara/p/from-words-to-vectors-understanding?r=5b5pyd&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-base font-normal underline text-neutral-700 dark:text-neutral-300 hover:text-black dark:hover:text-white"
+    >
+    From Words to Vectors: Understanding Word Embeddings in NLP
+    </a>
+  </li>
+
+
+
+
               {blogs.map((blog) => (
                 <li key={blog.slug} className="flex items-center gap-4">
                   <span className="text-sm text-gray-500 min-w-[120px]">
@@ -56,6 +79,8 @@ export default function BlogList() {
                   </a>
                 </li>
               ))}
+
+
             </ul>
 
             {/* ✅ "See More Blogs" Button */}
