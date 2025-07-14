@@ -17,6 +17,13 @@ import { PlayCircle } from "lucide-react";
 
 // === Example video data ===
 const videos = [
+      {
+    videoId: "yVZTtnSkya8",
+    title: "A visual guide to Word Embeddings",
+    description: "Dive deep into the fascinating world of word embeddings and discover how computers transform text into meaningful numbers!",
+    date: "Jul 9, 2025",
+    tags: ["word embeddings","Word2Vec","NLP" , "transformers"],
+  },
   {
     videoId: "APnKbi448O4",
     title: "A visual introduction to tokenization in LLMs | Byte Pair Encoding Algorithm",
@@ -24,6 +31,7 @@ const videos = [
     date: "March 13, 2025",
     tags: ["BPE", "Tokenization", "LLMs"],
   },
+
 ];
 
 // === Main Component ===
