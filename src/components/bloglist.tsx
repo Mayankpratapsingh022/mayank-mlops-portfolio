@@ -3,31 +3,31 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 
-interface Blog {
+interface Chapter {
   title: string;
   slug: string;
-  date: string;
-  category: string;
+  url: string;
+  description: string;
 }
 
 export default function BlogList() {
-  const [blogs, setBlogs] = useState<Blog[]>([]);
+  const [chapters, setChapters] = useState<Chapter[]>([]);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const fetchBlogs = async () => {
+    const fetchChapters = async () => {
       try {
-        const res = await fetch("https://blogs.mayankpratapsingh.in/api/blogs");
+        const res = await fetch("https://blogs.mayankpratapsingh.in/api/chapters");
         if (!res.ok) throw new Error(`Failed to fetch: ${res.statusText}`);
-        const data = await res.json();
-        setBlogs(data.slice(0, 5)); // ✅ Show only the latest 5 blogs
+        const data: Chapter[] = await res.json();
+        setChapters(data);
       } catch (err) {
-        console.error("Error fetching blogs:", err);
+        console.error("Error fetching chapters:", err);
         setError("Failed to fetch blogs.");
       }
     };
 
-    fetchBlogs();
+    fetchChapters();
   }, []);
 
   return (
@@ -38,66 +38,37 @@ export default function BlogList() {
 
         {error ? (
           <p className="text-red-500">{error}</p>
-        ) : blogs.length === 0 ? (
+        ) : chapters.length === 0 ? (
           <p className="text-gray-500">Loading blogs...</p>
         ) : (
           <>
             <ul className="space-y-4">
-
-
-
-
-
-                {/*  Manually added blog entry */}
-  <li className="flex items-center gap-4">
-    <span className="text-sm text-gray-500 min-w-[120px]">
-      {new Date("2025-04-30").toLocaleDateString()}
-    </span>
-    <a
-      href="https://open.substack.com/pub/vizuara/p/from-words-to-vectors-understanding?r=5b5pyd&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-base font-normal underline text-neutral-700 dark:text-neutral-300 hover:text-black dark:hover:text-white"
-    >
-    From Words to Vectors: Understanding Word Embeddings in NLP
-    </a>
-  </li>
-
-
-
-
-              {blogs.map((blog) => (
-                <li key={blog.slug} className="flex items-center gap-4">
-                  <span className="text-sm text-gray-500 min-w-[120px]">
-                    {new Date(blog.date).toLocaleDateString()}
-                  </span>
+              {chapters.map((chapter: Chapter) => (
+                <li key={chapter.slug} className="flex flex-col gap-1">
                   <a
-                    href={`https://blogs.mayankpratapsingh.in/${blog.slug}`}
-                    className="text-base font-normal  underline text-neutral-700 dark:text-neutral-300 hover:text-black dark:hover:text-white"
+                    href={chapter.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-base font-normal underline text-neutral-700 dark:text-neutral-300 hover:text-black dark:hover:text-white"
                   >
-                    {blog.title}
+                    {chapter.title}
                   </a>
+                  <p className="text-sm text-gray-500">{chapter.description}</p>
                 </li>
               ))}
-
-
             </ul>
 
-            {/* ✅ "See More Blogs" Button */}
             <div className="mt-6 text-center">
               <a
                 href="https://blogs.mayankpratapsingh.in"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=""
               >
-               
-              
-              <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="w-full sm:w-auto group transition-all duration-300 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98]"
                 >
-                See More Blogs
+                  See More Blogs
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-4 w-4 ml-2 transition-transform duration-300 group-hover:translate-x-1"
@@ -113,10 +84,8 @@ export default function BlogList() {
                     />
                   </svg>
                 </Button>
-                </a>
+              </a>
             </div>
-
-
           </>
         )}
       </div>
