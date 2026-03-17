@@ -169,6 +169,34 @@ export const DATA = {
     },
 
     {
+      title: "Text-to-Speech (Tacotron 2) from Scratch",
+      href: "https://github.com/Mayankpratapsingh022/Text-to-speech-model-from-scratch",
+      dates: "",
+      active: true,
+      description:
+        "Implemented a Tacotron 2 neural text-to-speech model from scratch in PyTorch. The model generates mel-spectrograms from raw text input using an encoder-decoder architecture with attention mechanisms, then converts them to audio waveforms. Trained on the LJSpeech dataset.",
+      technologies: [
+        "Python",
+        "PyTorch",
+        "librosa",
+        "Pandas",
+        "Scikit-Learn",
+        "NumPy",
+        "Tacotron 2",
+        "Mel-Spectrogram",
+        "Attention Mechanism",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/Mayankpratapsingh022/Text-to-speech-model-from-scratch",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/tts_tacotron.png",
+    },
+
+    {
       title: "Fine-Tuning Large Language Models (LLMs)",
       href: "https://github.com/Mayankpratapsingh022/Finetuning-LLMs",
       dates: "",
