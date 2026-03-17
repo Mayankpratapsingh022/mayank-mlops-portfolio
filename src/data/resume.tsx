@@ -94,7 +94,46 @@ export const DATA = {
  
   ],
   projects: [
-    
+
+    {
+      title: "DeepSeek V3 LLM from Scratch in PyTorch",
+      href: "https://github.com/Mayankpratapsingh022/DeepSeek-from-Scratch",
+      dates: "",
+      active: true,
+      description:
+        "Implemented the complete DeepSeek V3 architecture from scratch — a 100M+ parameter transformer featuring Multi-Head Latent Attention (MLA), Mixture of Experts (MoE), and Multi-Token Prediction (MTP). Trained on the FineWeb-Edu dataset with ~2.5B tokens on an NVIDIA A100 80GB GPU.",
+      technologies: [
+        "Python",
+        "PyTorch",
+        "NumPy",
+        "Hugging Face",
+        "Weights & Biases",
+        "CUDA",
+        "Transformer Architecture",
+        "Mixture of Experts",
+        "Multi-Head Latent Attention",
+        "Multi-Token Prediction",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/Mayankpratapsingh022/DeepSeek-from-Scratch",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Huggingface",
+          href: "https://huggingface.co/Mayank022/DeepSeek-V3-from-Scratch/tree/main",
+          icon: "",
+        },
+        {
+          type: "Video",
+          href: "https://www.youtube.com/watch?v=L-E3WJvztZ0",
+          icon: <Icons.youtube className="size-3" />,
+        },
+      ],
+      image: "/Deepseek.png",
+    },
+
     {
       title: "Fine-Tuning Large Language Models (LLMs)",
       href: "https://github.com/Mayankpratapsingh022/Finetuning-LLMs",
