@@ -55,8 +55,8 @@ export const DATA = {
 
         navbar: true,
       },
-   
-      
+
+
       email: {
         name: "Send Email",
         url: "#",
@@ -80,7 +80,7 @@ export const DATA = {
       description:
         "Working on LLMs and AI Agents",
     },
-   
+
   ],
   education: [
     // {
@@ -91,7 +91,7 @@ export const DATA = {
     //   start: "2023",
     //   end: "2024",
     // },
- 
+
   ],
   projects: [
 
@@ -101,7 +101,7 @@ export const DATA = {
       dates: "",
       active: true,
       description:
-        "Implemented the complete DeepSeek V3 architecture from scratch — a 100M+ parameter transformer featuring Multi-Head Latent Attention (MLA), Mixture of Experts (MoE), and Multi-Token Prediction (MTP). Trained on the FineWeb-Edu dataset with ~2.5B tokens on an NVIDIA A100 80GB GPU.",
+        "Implemented the complete DeepSeek V3 architecture from scratch, a 100M+ parameter transformer featuring Multi-Head Latent Attention (MLA), Mixture of Experts (MoE), and Multi-Token Prediction (MTP). Trained on the FineWeb-Edu dataset with ~2.5B tokens on an NVIDIA A100 80GB GPU.",
       technologies: [
         "Python",
         "PyTorch",
@@ -132,6 +132,40 @@ export const DATA = {
         },
       ],
       image: "/Deepseek.png",
+    },
+
+    {
+      title: "Speech-to-Text Transformer from Scratch",
+      href: "https://github.com/Mayankpratapsingh022/Speech-to-text-model-from-scratch",
+      dates: "",
+      active: true,
+      description:
+        "Built a complete Speech-to-Text Transformer model from scratch using PyTorch, converting raw audio waveforms into text without pre-trained models. Implements convolutional downsampling, multi-head self-attention, Residual Vector Quantization (RVQ), and CTC loss for alignment-free training. Trained on the LJSpeech dataset using an A100 GPU.",
+      technologies: [
+        "Python",
+        "PyTorch",
+        "torchaudio",
+        "NumPy",
+        "TensorBoard",
+        "Hugging Face Datasets",
+        "Transformer Architecture",
+        "CTC Loss",
+        "Vector Quantization",
+        "BPE Tokenizer",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/Mayankpratapsingh022/Speech-to-text-model-from-scratch",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Blog",
+          href: "https://blogs.mayankpratapsingh.in/chapters/speech-to-text-from-scratch",
+          icon: "",
+        },
+      ],
+      image: "/stt.gif",
     },
 
     {
@@ -166,36 +200,36 @@ export const DATA = {
       ],
       image: "/finetun.gif", // or "/a3de55cf-03c6-474b-957f-d3feb38a05e6.png" if you're referencing the uploaded image directly
     }
-,   
+    ,
 
-{
-  title: "Large Language Model (LLM) from Scratch",
-  href: "https://github.com/Mayankpratapsingh022/LLM_from_Scratch/tree/master/GPT2-124M_from_Scratch",
-  dates: "",
-  active: true,
-  description:
-    "Implemented a Large Language Model (LLM) from scratch, covering every stage from data preparation and model architecture to pretraining and fine-tuning. This project demystifies transformer-based models through hands-on code and experiments, enabling a deeper understanding of attention mechanisms and token prediction.",
-  technologies: [
-    "Python",
-    "NumPy",
-    "PyTorch",
-    "Transformer Architecture",
-    "Attention Mechanism",
-    "Word Embeddings",
-    "Instruction Tuning",
-    "Fine-tuning",
-    "LLM Pretraining"
-  ],
-  links: [
     {
-      type: "GitHub",
-      href: "https://github.com/Mayankpratapsingh022/LLM_from_Scratch",
-      icon: "",
-    }
-  ],
-  image: "/llm_from_scratch.gif" 
-},
-  
+      title: "Large Language Model (LLM) from Scratch",
+      href: "https://github.com/Mayankpratapsingh022/LLM_from_Scratch/tree/master/GPT2-124M_from_Scratch",
+      dates: "",
+      active: true,
+      description:
+        "Implemented a Large Language Model (LLM) from scratch, covering every stage from data preparation and model architecture to pretraining and fine-tuning. This project demystifies transformer-based models through hands-on code and experiments, enabling a deeper understanding of attention mechanisms and token prediction.",
+      technologies: [
+        "Python",
+        "NumPy",
+        "PyTorch",
+        "Transformer Architecture",
+        "Attention Mechanism",
+        "Word Embeddings",
+        "Instruction Tuning",
+        "Fine-tuning",
+        "LLM Pretraining"
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/Mayankpratapsingh022/LLM_from_Scratch",
+          icon: "",
+        }
+      ],
+      image: "/llm_from_scratch.gif"
+    },
+
     {
       title: "US Visa Approval Prediction using MLOps",
       href: "https://github.com/Mayankpratapsingh022/US-VISA-APPROVAL-PREDICTION-MLOPS",
@@ -232,104 +266,104 @@ export const DATA = {
       ],
       image: "/us_visa_prediction_mlops.png",
     },
-  
-       
-{
-  title: "Interactive ML Algorithm Visualizer",
-  href: "https://www.mlexplain.com/linear-regression",
-  dates: "",
-  active: true,
-  description:
-    "An interactive web application designed to help users understand and experiment with machine learning algorithms visually. It offers dynamic visualizations for concepts like linear regression, allowing users to adjust parameters such as slope and intercept interactively. The platform aims to simplify ML concepts for learners through intuitive design and engaging tools.",
-  technologies: [
-    "TypeScript",
-    "D3.js",
-    "SVG",
-    "Next.js"
-  ],
-  links: [
+
+
     {
-      title: "Neural Network From Scratch",
-      "type": "GitHub",
-      "href": "https://github.com/Mayankpratapsingh022/MLDataViz",
-      "icon": "<Icons.github className='size-3' />"
+      title: "Interactive ML Algorithm Visualizer",
+      href: "https://www.mlexplain.com/linear-regression",
+      dates: "",
+      active: true,
+      description:
+        "An interactive web application designed to help users understand and experiment with machine learning algorithms visually. It offers dynamic visualizations for concepts like linear regression, allowing users to adjust parameters such as slope and intercept interactively. The platform aims to simplify ML concepts for learners through intuitive design and engaging tools.",
+      technologies: [
+        "TypeScript",
+        "D3.js",
+        "SVG",
+        "Next.js"
+      ],
+      links: [
+        {
+          title: "Neural Network From Scratch",
+          "type": "GitHub",
+          "href": "https://github.com/Mayankpratapsingh022/MLDataViz",
+          "icon": "<Icons.github className='size-3' />"
+        },
+        {
+          "type": "Website",
+          "href": "https://www.mlexplain.com/linear-regression",
+          "icon": "<Icons.external className='size-3' />"
+        },
+        {
+          "type": "Video",
+          "href": "https://www.youtube.com/watch?v=7luEGaHig9w&t=11s",
+          "icon": "<Icons.external className='size-3' />"
+        }
+      ],
+      image: "/mlexplain.png",
     },
     {
-      "type": "Website",
-      "href": "https://www.mlexplain.com/linear-regression",
-      "icon": "<Icons.external className='size-3' />"
+      title: "Network Security - Malicious URL Detection using MLOps",
+      href: "projectblog/network-security-mlops",
+      dates: "",
+      active: true,
+      description:
+        "Developed an end-to-end MLOps project to detect malicious URLs using XGBoost. Integrated robust pipelines for data ingestion, model training, deployment, and monitoring.",
+      technologies: [
+        "Streamlit",
+        "FastAPI",
+        "XGBoost",
+        "MongoDB",
+        "Apache Airflow",
+        "MLflow",
+        "GitHub Actions",
+        "Docker",
+        "AWS S3",
+        "AWS EC2 Instance"
+      ],
+      links: [
+        // {
+        //   type: "Blog",
+        //   href: "https://github.com/Mayankpratapsingh022/Network_Security",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+        {
+          type: "GitHub",
+          href: "https://github.com/Mayankpratapsingh022/Network_Security",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Video",
+          href: "https://www.youtube.com/watch?v=stdsfTTr4xk",
+          icon: <Icons.youtube className="size-3" />,
+        }
+      ],
+      image: "/network_security_mlops.png",
     },
+
     {
-      "type": "Video",
-      "href": "https://www.youtube.com/watch?v=7luEGaHig9w&t=11s",
-      "icon": "<Icons.external className='size-3' />"
-    }
-  ],
-  image: "/mlexplain.png",
-}, 
-{
-  title: "Network Security - Malicious URL Detection using MLOps",
-  href: "projectblog/network-security-mlops",
-  dates: "",
-  active: true,
-  description:
-    "Developed an end-to-end MLOps project to detect malicious URLs using XGBoost. Integrated robust pipelines for data ingestion, model training, deployment, and monitoring.",
-  technologies: [
-    "Streamlit",
-    "FastAPI",
-    "XGBoost",
-    "MongoDB",
-    "Apache Airflow",
-    "MLflow",
-    "GitHub Actions",
-    "Docker",
-    "AWS S3",
-    "AWS EC2 Instance"
-  ],
-  links: [
-    // {
-    //   type: "Blog",
-    //   href: "https://github.com/Mayankpratapsingh022/Network_Security",
-    //   icon: <Icons.github className="size-3" />,
-    // },
-    {
-      type: "GitHub",
-      href: "https://github.com/Mayankpratapsingh022/Network_Security",
-      icon: <Icons.github className="size-3" />,
-    },
-    {
-      type: "Video",
-      href: "https://www.youtube.com/watch?v=stdsfTTr4xk",
-      icon: <Icons.youtube className="size-3" />,
-    }
-  ],
-  image: "/network_security_mlops.png",
-},
-    
-{
-  title: "Customer Satisfaction Prediction using ZenML",
-  href: "https://github.com/Mayankpratapsingh022/Customer-Satisfaction-MLOps/tree/main",
-  dates: "",
-  active: true,
-  description:
-    "Predicted customer satisfaction scores for future orders using historical e-commerce data from the Brazilian E-Commerce Public Dataset by Olist. This project leverages multiple machine learning models like CatBoost, XGBoost, and LightGBM, built within a ZenML pipeline to create a production-ready solution.",
-  technologies: [
-    "XGboost",
-    "Optuna",
-    "ZenML",
-    "Streamlit",
-    "MLFlow"
-  ],
-  links: [
-    {
-      type: "GitHub",
+      title: "Customer Satisfaction Prediction using ZenML",
       href: "https://github.com/Mayankpratapsingh022/Customer-Satisfaction-MLOps/tree/main",
-      icon: <Icons.github className="size-3" />,
+      dates: "",
+      active: true,
+      description:
+        "Predicted customer satisfaction scores for future orders using historical e-commerce data from the Brazilian E-Commerce Public Dataset by Olist. This project leverages multiple machine learning models like CatBoost, XGBoost, and LightGBM, built within a ZenML pipeline to create a production-ready solution.",
+      technologies: [
+        "XGboost",
+        "Optuna",
+        "ZenML",
+        "Streamlit",
+        "MLFlow"
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/Mayankpratapsingh022/Customer-Satisfaction-MLOps/tree/main",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/customer_pipeline.jpg",
+
     },
-  ],
-  image: "/customer_pipeline.jpg",
-  
-}, 
   ],
   // hackathons: [
   //   {
