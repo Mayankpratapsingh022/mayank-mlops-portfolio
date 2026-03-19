@@ -164,6 +164,11 @@ export const DATA = {
           href: "https://blogs.mayankpratapsingh.in/chapters/speech-to-text-from-scratch",
           icon: "",
         },
+         {
+          type: "Video",
+          href: "https://youtu.be/dJQOL4sl_nw?si=_ALm7wd-QhzzuXaF",
+          icon: <Icons.youtube className="size-3" />,
+        },
       ],
       image: "/stt.gif",
     },
